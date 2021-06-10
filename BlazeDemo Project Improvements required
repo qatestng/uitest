@@ -1,0 +1,31 @@
+Improvements needed : 
+-------------------------------
+
+More test scenarios to be automated: 
+-----------------------------------------
+
+*FindFlights
+Verify valid list of source cities 
+Verify valid list of destination cities 
+
+*ChooseFlight
+Verify with requirements the list of available flights, flight details for source and destination city 
+
+*Purchase Flight 
+Verify all input types
+Verify with requirements optional/manadatory fileds 
+Verify input with valid and invalid input values
+
+
+*Result Page
+Verify all result page details according to requirement 
+
+
+Framework Improvements:
+-----------------------------------
+List of all elements in all four pages
+Custom Reporting as per requirement 
+Take screenshots for failed test 
+Use data driven approach to reuse test methods 
+Multiple browser support in testng.xml and driver class 
+Improvement of testng.xml and pom.xml for building and running tests in command line to intergrate with CICD
